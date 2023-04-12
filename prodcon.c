@@ -7,7 +7,7 @@
 
 /* buffer.h */
 #define BUFFER_SIZE 30
-#define NUM_ITEMS 1
+#define NUM_ITEMS 10
 
 typedef struct {
     uint16_t cksum;
