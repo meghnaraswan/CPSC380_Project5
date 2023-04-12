@@ -28,6 +28,6 @@
 
 * ./prodcon <delay> <#producer threads> <#consumer threads>
 * Example:
--  ./prodcon 10 2 3
+- ./prodcon 10 2 3
 - ./prodcon 1 2 3
 
