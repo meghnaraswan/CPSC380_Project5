@@ -1,0 +1,133 @@
+P: produced an item in next produced 
+P: added next produced to the buffer 
+P: produced an item in next produced 
+P: added next produced to the buffer 
+P: produced an item in next produced 
+P: added next produced to the buffer 
+P: produced an item in next produced 
+P: added next produced to the buffer 
+P: produced an item in next produced 
+P: added next produced to the buffer 
+P: produced an item in next produced 
+P: added next produced to the buffer 
+P: produced an item in next produced 
+P: added next produced to the buffer 
+P: produced an item in next produced 
+P: added next produced to the buffer 
+P: produced an item in next produced 
+P: added next produced to the buffer 
+P: produced an item in next produced 
+P: added next produced to the buffer 
+P: produced an item in next produced 
+C: removed an item from buffer to next consumed 
+Checksum calculated for 10 item(s): 3651
+C: consumed the item in next consumed 
+C: removed an item from buffer to next consumed 
+Checksum calculated for 10 item(s): 3346
+C: consumed the item in next consumed 
+C: removed an item from buffer to next consumed 
+C: removed an item from buffer to next consumed 
+Checksum calculated for 10 item(s): 4275
+C: consumed the item in next consumed 
+C: removed an item from buffer to next consumed 
+Checksum calculated for 10 item(s): 3191
+Checksum calculated for 10 item(s): 5265
+C: consumed the item in next consumed 
+C: removed an item from buffer to next consumed 
+Checksum calculated for 10 item(s): 4304
+C: consumed the item in next consumed 
+C: removed an item from buffer to next consumed 
+Checksum calculated for 10 item(s): 3923
+C: removed an item from buffer to next consumed 
+Checksum calculated for 10 item(s): 3549
+C: consumed the item in next consumed 
+C: removed an item from buffer to next consumed 
+Checksum calculated for 10 item(s): 4306
+C: consumed the item in next consumed 
+C: removed an item from buffer to next consumed 
+Checksum calculated for 10 item(s): 3493
+C: consumed the item in next consumed 
+C: removed an item from buffer to next consumed 
+Checksum calculated for 10 item(s): 3493
+C: consumed the item in next consumed 
+C: removed an item from buffer to next consumed 
+Checksum calculated for 10 item(s): 3493
+C: consumed the item in next consumed 
+C: consumed the item in next consumed 
+P: added next produced to the buffer 
+P: produced an item in next produced 
+P: added next produced to the buffer 
+C: consumed the item in next consumed 
+P: produced an item in next produced 
+C: removed an item from buffer to next consumed 
+Checksum calculated for 10 item(s): 3978
+C: removed an item from buffer to next consumed 
+Checksum calculated for 10 item(s): 4013
+C: consumed the item in next consumed 
+C: removed an item from buffer to next consumed 
+Checksum calculated for 10 item(s): 3493
+C: consumed the item in next consumed 
+C: removed an item from buffer to next consumed 
+Checksum calculated for 10 item(s): 4013
+C: consumed the item in next consumed 
+C: consumed the item in next consumed 
+C: removed an item from buffer to next consumed 
+C: removed an item from buffer to next consumed 
+Checksum calculated for 10 item(s): 4013
+C: consumed the item in next consumed 
+Checksum calculated for 10 item(s): 3493
+P: added next produced to the buffer 
+C: consumed the item in next consumed 
+C: removed an item from buffer to next consumed 
+Checksum calculated for 10 item(s): 4013
+C: consumed the item in next consumed 
+C: removed an item from buffer to next consumed 
+Checksum calculated for 10 item(s): 3978
+C: removed an item from buffer to next consumed 
+C: removed an item from buffer to next consumed 
+Checksum calculated for 10 item(s): 4013
+P: produced an item in next produced 
+P: added next produced to the buffer 
+P: produced an item in next produced 
+P: added next produced to the buffer 
+P: produced an item in next produced 
+P: added next produced to the buffer 
+C: consumed the item in next consumed 
+Checksum calculated for 10 item(s): 3493
+C: consumed the item in next consumed 
+All items were identified; their checksums were successfully matched!
+P: produced an item in next produced 
+P: added next produced to the buffer 
+C: removed an item from buffer to next consumed 
+C: consumed the item in next consumed 
+Checksum calculated for 10 item(s): 4176
+C: consumed the item in next consumed 
+C: removed an item from buffer to next consumed 
+Checksum calculated for 10 item(s): 3407
+C: consumed the item in next consumed 
+P: produced an item in next produced 
+P: added next produced to the buffer 
+C: removed an item from buffer to next consumed 
+Checksum calculated for 10 item(s): 3510
+C: consumed the item in next consumed 
+All items were identified; their checksums were successfully matched!
+P: produced an item in next produced 
+P: added next produced to the buffer 
+C: removed an item from buffer to next consumed 
+Checksum calculated for 10 item(s): 3433
+C: consumed the item in next consumed 
+P: produced an item in next produced 
+C: removed an item from buffer to next consumed 
+Checksum calculated for 10 item(s): 3108
+C: consumed the item in next consumed 
+C: removed an item from buffer to next consumed 
+Checksum calculated for 10 item(s): 4250
+C: consumed the item in next consumed 
+C: removed an item from buffer to next consumed 
+Checksum calculated for 10 item(s): 4250
+C: consumed the item in next consumed 
+C: removed an item from buffer to next consumed 
+Checksum calculated for 10 item(s): 4250
+C: consumed the item in next consumed 
+All items were identified; their checksums were successfully matched!
+P: added next produced to the buffer 

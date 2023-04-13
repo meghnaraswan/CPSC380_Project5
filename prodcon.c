@@ -60,18 +60,20 @@ void *producer(void *arg) {
     int i;
     buffer_item item;
     for (i = 0; i < NUM_ITEMS; i++) {
-        /* produce an item in next.produced */
+        /* produce an item in next produced */
         int j;
         for (j = 0; j < BUFFER_SIZE; j++) {
-            item.buffer[j] = rand() % 256;
+            item.buffer[j] = rand() % RAND_MAX;
         }
         item.cksum = calculate_checksum(item.buffer, BUFFER_SIZE);
         sem_wait(&sem_empty);
         pthread_mutex_lock(&mutex);
-        /* add next.produced to the buffer */
+        printf("P: produced an item in next produced \n");
+        /* add next produced to the buffer */
         insert_item(item);
         pthread_mutex_unlock(&mutex);
         sem_post(&sem_full);
+        printf("P: added next produced to the buffer \n");
     }
     pthread_exit(NULL);
 }
@@ -82,11 +84,12 @@ void *consumer(void *arg) {
     for (i = 0; i < NUM_ITEMS; i++) {
         sem_wait(&sem_full);
         pthread_mutex_lock(&mutex);
-        /* remove an item from buffer to next.consumed */
+        /* remove an item from buffer to next consumed */
         remove_item(&item);
         pthread_mutex_unlock(&mutex);
         sem_post(&sem_empty);
-        /* consume the item in next.consumed */
+        printf("C: removed an item from buffer to next consumed \n");
+        /* consume the item in next consumed */
         uint16_t cksum = 0;
         int j;
         for (j = 0; j < BUFFER_SIZE; j++) {
@@ -97,6 +100,7 @@ void *consumer(void *arg) {
             continue;
         } 
         printf("Checksum calculated for %u item(s): %u\n", NUM_ITEMS, item.cksum);
+        printf("C: consumed the item in next consumed \n");
     }
     printf("All items were identified; their checksums were successfully matched!\n");
     pthread_exit(NULL);
